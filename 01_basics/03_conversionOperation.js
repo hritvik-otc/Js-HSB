@@ -24,4 +24,9 @@ let boolIsLoggedIn = Boolean(isLoggedIn);
 console.log(boolIsLoggedIn);
 
 
+let someNumber = 333;
+let stringNumber = String(someNumber);
+console.log(typeof stringNumber);
+console.log(stringNumber);
+
 console.log(!!"");
