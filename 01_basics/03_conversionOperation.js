@@ -29,4 +29,33 @@ let stringNumber = String(someNumber);
 console.log(typeof stringNumber);
 console.log(stringNumber);
 
-console.log(!!"");
+// console.log(!!"");
+
+//************ OPERATIONS ************//
+let value = 3;
+let negValue = -value;
+console.log(negValue);
+
+// console.log(2+2)
+// console.log(2-2)
+// console.log(2*2)
+// console.log(2**2)
+// console.log(2/2) //Quotient
+// console.log(2%2) //Remainder
+
+console.log("1" + 2);
+console.log(1 + "2");
+console.log("1" + 2 + 2);
+console.log(1 + 2 + "2");
+
+console.log(+true)
+console.log(+"")
+
+
+
+
+
+
+
+
+
