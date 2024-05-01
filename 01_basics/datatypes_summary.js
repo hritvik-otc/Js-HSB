@@ -32,4 +32,23 @@ console.log(typeof anotherId);
 //a function is also a object -> if we study the documnentation it is a Object Function.
 
 
+// STACK(Primitive) and HEAP(Non-Primitive)
+let myOldGamingName = "Maverick";
 
+let myNewGamingName = myOldGamingName;
+myNewGamingName = "io8ide8";
+
+console.log(myNewGamingName);
+console.log(myOldGamingName);
+
+const user1 = {
+    email: "user@gmail.com",
+    upi: "user@ybl"
+}
+
+const user2 = user1;
+
+user2.email = "jod@google.com"
+
+console.log(user2);
+console.log(user1);
